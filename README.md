@@ -1,4 +1,12 @@
-# SiteMind — Architecture Writeup
+# Automated SMB Site & Outreach Pipeline — Architecture Writeup
+
+**What it is:** An automated pipeline that finds local businesses with no website, builds one, and sells it.
+**Why it existed:** To turn a cold-outreach small-business sales motion into a fully automated, self-funding acquisition pipeline.
+**What I owned:** Full pipeline design, international localization, and the seven real production bugs documented below.
+**Stack:** Python, Airtable, PostgreSQL, n8n, Stripe, domain-registrar APIs.
+**Production status:** Live, multi-region. This is a writeup, not a source dump — the real app has live payment credentials and prospect data running through it continuously.
+
+---
 
 An automated small-business acquisition pipeline: discover local
 businesses with no website, auto-build one for them, run outreach selling
